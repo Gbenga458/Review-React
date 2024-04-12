@@ -34,7 +34,7 @@ const prevPerson =()=>{
 const randomPerson =()=> {
   let randomNumber = Math.floor(Math.random() * people.length)
   if(randomNumber === index){
-     let newIndex = index + 1;
+     randomNumber = index + 1;
   }
   setIndex(checkNumber(randomNumber))
 }
